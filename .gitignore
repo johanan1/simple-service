@@ -1,0 +1,46 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+mvnw
+mvnw.cmd
+.mvn
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.jpb
+
+## MacOS
+**/.DS_Store
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Localstack ###
+localstack-volume
+
+scripts/redis_message_trigger/.venv
+scripts/redis_message_trigger/device_activity_trigger/**/__pycache__
